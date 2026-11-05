@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Workspace Recent Sort",
+    "description": "Orders the sidebar's workspace groups by their newest session when the view is sorted by 'Last updated'. Manual order is left untouched."
+  }
+}

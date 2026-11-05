@@ -1,0 +1,5 @@
+- insert:
+    - id: workspace-recent-sort
+      name: '@local/workspace-recent-sort'
+      config:
+        enabled: true
