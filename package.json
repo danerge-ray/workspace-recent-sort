@@ -3,6 +3,24 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
+  "description": "DSH 插件：让侧边栏的工作区分组按各自最新会话时间排序（仅在「最近更新」视图生效，「手动排序」保持拖拽顺序）。",
+  "license": "MIT",
+  "author": "danerge-ray",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "workspace",
+    "sidebar",
+    "sort"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danerge-ray/workspace-recent-sort.git"
+  },
+  "homepage": "https://github.com/danerge-ray/workspace-recent-sort#readme",
+  "bugs": {
+    "url": "https://github.com/danerge-ray/workspace-recent-sort/issues"
+  },
   "exports": {
     ".": "./index.js",
     "./client": "./client.js",
