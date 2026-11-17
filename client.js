@@ -1,5 +1,5 @@
 window.__ModuleLoader__.load({
-  id: '@local/workspace-recent-sort',
+  id: 'workspace-recent-sort',
   factory(require) {
     /**
      * workspace-recent-sort — client half.
@@ -174,7 +174,7 @@ window.__ModuleLoader__.load({
     }
 
     return {
-      name: '@local/workspace-recent-sort',
+      name: 'workspace-recent-sort',
       inject: ['workspaces'],
 
       apply(ctx) {

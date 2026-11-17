@@ -31,7 +31,7 @@ DSH 侧边栏只会对**工作区内**的会话按最近更新排序，「工作
 ## 安装
 
 ```bash
-dsh plugin add github:danerge-ray/workspace-recent-sort
+dsh plugin add workspace-recent-sort
 ```
 
 安装后重启 DSH，或在 Web GUI 中刷新页面，使 bundle 生效。
@@ -41,10 +41,10 @@ dsh plugin add github:danerge-ray/workspace-recent-sort
 ### 卸载
 
 ```bash
-dsh plugin remove @local/workspace-recent-sort
+dsh plugin remove workspace-recent-sort
 ```
 
-如果 profile 的 `package.json` 里 `dsh.profile.bundles` 仍保留 `@local/workspace-recent-sort`，手动删掉这一项即可。
+如果 profile 的 `package.json` 里 `dsh.profile.bundles` 仍保留 `workspace-recent-sort`，手动删掉这一项即可。
 
 ### 本地开发
 
@@ -85,7 +85,7 @@ DSH sorts sessions inside a workspace by recency, but the workspace groups thems
 ### Install
 
 ```bash
-dsh plugin add github:danerge-ray/workspace-recent-sort
+dsh plugin add workspace-recent-sort
 ```
 
 Restart DSH or reload the Web GUI afterwards.

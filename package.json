@@ -1,7 +1,6 @@
 {
-  "name": "@local/workspace-recent-sort",
+  "name": "workspace-recent-sort",
   "version": "1.0.0",
-  "private": true,
   "type": "module",
   "description": "DSH 插件：让侧边栏的工作区分组按各自最新会话时间排序（仅在「最近更新」视图生效，「手动排序」保持拖拽顺序）。",
   "license": "MIT",
@@ -27,13 +26,23 @@
     "./locale/*.json": "./locale/*.json",
     "./icon": "./icon.svg"
   },
-  "files": ["index.js", "client.js", "cordis.patch.yml", "locale/*.json", "icon.svg"],
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg"
+  ],
   "dsh": {
-    "bundle": { "patch": "./cordis.patch.yml" },
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
     "client": {
       "platform": "web",
       "immediately": true,
-      "inject": ["@deepseek-ai/dsh-api-workspace-controller"]
+      "inject": [
+        "@deepseek-ai/dsh-api-workspace-controller"
+      ]
     }
   }
 }
